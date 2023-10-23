@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+
+
+
+body {
+    background-color: #CDE1E7;
+}
+
+
+/*Para restar los pixeles que sobran cuando haces % y pones paddings; width: Calc(80% -20px) */
+
+
+.PAW-CLUB {
+    width: 265px;
+    height: 166px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-shadow: 
+    -0.5px -0.5px 0 #3A59FF,
+    0.5px -0.5px 0 #3A59FF,
+    -0.5px 0.5px 0 #3A59FF,
+    0.5px 0.5px 0 #3A59FF;
+    font-family: 'Rammetto One', sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105.896%; /* 84.717px */
+}
+
+.fondoizquierda {
+    display: flex;
+    flex: 5;
+    background-color: #CDE1E7;
+}
+
+.fondoderecha {
+    display: flex;
+    flex: 1;
+    background-color: #EF7B9D 26.7%;
+}
+
+.lorem {
+    color: #0A1760;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: 1.44px;
+}
