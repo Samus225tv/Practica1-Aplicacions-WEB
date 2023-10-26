@@ -20,7 +20,7 @@ body {
 /*Para restar los pixeles que sobran cuando haces % y pones paddings; width: Calc(80% -20px) */
 
 
-.PAW-CLUB {
+.PAW-CLUB { 
     -webkit-text-stroke: 0.5px #3A59FF;
     color: #FFF;
     font-family: 'Rammetto One', sans-serif;
