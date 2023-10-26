@@ -1,28 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
 
 body {
-    background-color: #CDE1E7;
+    
 }
-
-
+.container {
+    background: radial-gradient(65.14% 54.27% at 71.11% 50%, #EF7B9D 26.7%, #E86189 100%);
+}
 
 .flex-container {
     display: flex;
-    border: 1px solid #000;
+    background-color: #CDE1E7;
+    padding-bottom: 500px;
     flex-flow: row wrap;
-    min-height: 400px;
-    max-width: 1200px;
+    max-width: 66%;
 }
 
 /*Para restar los pixeles que sobran cuando haces % y pones paddings; width: Calc(80% -20px) */
 
 
 .PAW-CLUB {
-    width: 265px;
-    height: 166px;
-    flex-shrink: 0;
     -webkit-text-stroke: 0.5px #3A59FF;
     color: #FFF;
     font-family: 'Rammetto One', sans-serif;
@@ -30,29 +28,16 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 105.896%; /* 84.717px*/
-}
-
-.fondoizquierda {
-    display: flex;
-    border: 1px solid black;
-    background-color: #CDE1E7;
-    width: calc(80%-20px);
-    height: 100%;
-}
-
-.fondoderecha {
-    border: 1px solid black;
-    display: flex;
-    width: calc(80% - 2px);
-    background-color: #EF7B9D 26.7%;
+    width: 265px;
+    height: 166px;
+    flex-shrink: 0;
+    padding: 296px 531px 562px 138px;
 }
 
 .lorem {
     color: #0A1760;
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
-    font-style: normal;
-    font-weight: 200;
-    line-height: normal;
     letter-spacing: 1.44px;
+    padding: 32px 108px 0px 0px;
 }
