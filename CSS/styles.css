@@ -26,14 +26,13 @@ body {
     background-color: #CDE1E7;
     display: flex; 
     margin: 0 auto;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
 }
 
 /*Para restar los pixeles que sobran cuando haces % y pones paddings; width: Calc(80% -20px) */
 
 .header {
     flex: 1;
-    background-color: #3A59FF;
     margin: 0;
 
 }
@@ -60,7 +59,7 @@ body {
     font-style: normal;
     line-height: 105.896%; /* 84.717px*/
     text-align: left;
-    padding-left: 20%;
+    padding-left: 10%;
 }
 
 .lorem {
@@ -68,7 +67,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
     letter-spacing: 1.44px;
-    padding: 5% 20%;
+    padding: 5% 10%;
 }
 
 
@@ -81,18 +80,19 @@ body {
     word-wrap: break-word;
 }
 
-
-
-.search-box {
+.rectangulo {
     display: flex;
-    align-items: center;
-    background-color: transparent;
-    border: 1px solid black;
-    padding: 10px;
+    width: 200px;
+    height: 20px;
+    border-radius: 20px; 
+    border: 0.50px white solid;
+    flex-direction: row-reverse;
 }
 
-.search-icon {
+.circulo {
+    display: flex;
     width: 20px;
     height: 20px;
-    fill: #000; /* Cambia el color del ícono si lo deseas */
+    border-radius: 20px; 
+    border: 0.50px white solid;
 }
