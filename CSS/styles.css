@@ -7,7 +7,6 @@ body {
 }
 .container {
     margin: auto;
-    width: 1400px;
     height: 1400px;
     flex-flow: row wrap;
     display: flex;
@@ -18,7 +17,7 @@ body {
     background-color: #CDE1E7;
     display: flex;
     margin: 0 auto;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
 }
 
 .fondo2 {
@@ -27,18 +26,30 @@ body {
     background-color: #CDE1E7;
     display: flex; 
     margin: 0 auto;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
 }
 
 /*Para restar los pixeles que sobran cuando haces % y pones paddings; width: Calc(80% -20px) */
 
+.header {
+    flex: 1;
+    background-color: #3A59FF;
+    margin: 0;
 
+}
+
+.contenedor {
+    flex: 2;
+    margin: 0;
+
+}
 .paw-h {
     color: black;
     font-size: 24px;
     font-family: Raleway;
     letter-spacing: 7.20px;
-    word-wrap: break-word
+    word-wrap: break-word;
+    padding: 4%;
 }
 
 .PAW-CLUB { 
@@ -48,6 +59,8 @@ body {
     font-size: 80px;
     font-style: normal;
     line-height: 105.896%; /* 84.717px*/
+    text-align: left;
+    padding-left: 20%;
 }
 
 .lorem {
@@ -55,6 +68,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
     letter-spacing: 1.44px;
+    padding: 5% 20%;
 }
 
 
@@ -65,4 +79,20 @@ body {
     font-weight: 500;
     line-height: 18px;
     word-wrap: break-word;
+}
+
+
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    fill: #000; /* Cambia el color del ícono si lo deseas */
 }
