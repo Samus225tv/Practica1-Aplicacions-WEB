@@ -3,22 +3,43 @@
 
 
 body {
-    
+   margin: 0; 
 }
 .container {
-    background: radial-gradient(65.14% 54.27% at 71.11% 50%, #EF7B9D 26.7%, #E86189 100%);
+    margin: auto;
+    width: 1400px;
+    height: 1400px;
+    flex-flow: row wrap;
+    display: flex;
 }
 
-.flex-container {
-    display: flex;
+.fondo1 {
+    flex: 2;
     background-color: #CDE1E7;
-    padding-bottom: 500px;
+    display: flex;
+    margin: 0 auto;
     flex-flow: row wrap;
-    max-width: 66%;
+}
+
+.fondo2 {
+    flex: 1;
+    background: radial-gradient(65.14% 54.27% at 71.11% 50%, #EF7B9D 26.7%, #E86189 100%);
+    background-color: #CDE1E7;
+    display: flex; 
+    margin: 0 auto;
+    flex-flow: row wrap;
 }
 
 /*Para restar los pixeles que sobran cuando haces % y pones paddings; width: Calc(80% -20px) */
 
+
+.paw-h {
+    color: black;
+    font-size: 24px;
+    font-family: Raleway;
+    letter-spacing: 7.20px;
+    word-wrap: break-word
+}
 
 .PAW-CLUB { 
     -webkit-text-stroke: 0.5px #3A59FF;
@@ -26,12 +47,7 @@ body {
     font-family: 'Rammetto One', sans-serif;
     font-size: 80px;
     font-style: normal;
-    font-weight: 400;
     line-height: 105.896%; /* 84.717px*/
-    width: 265px;
-    height: 166px;
-    flex-shrink: 0;
-    padding: 296px 531px 562px 138px;
 }
 
 .lorem {
@@ -39,5 +55,14 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
     letter-spacing: 1.44px;
-    padding: 32px 108px 0px 0px;
+}
+
+
+.GS {
+    color: #000;
+    font-size: 22px;
+    font-family: Raleway;
+    font-weight: 500;
+    line-height: 18px;
+    word-wrap: break-word;
 }
