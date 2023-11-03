@@ -27,6 +27,7 @@ body {
     display: flex; 
     margin: 0 auto;
     flex-flow: row wrap;
+    justify-content: space-around;
 }
 
 /*Para restar los pixeles que sobran cuando haces % y pones paddings; width: Calc(80% -20px) */
@@ -34,6 +35,16 @@ body {
 .header {
     flex: 1;
     margin: 0;
+
+}
+
+.header2 {
+    width: 100%;
+    height: 10%;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 10%;
 
 }
 
@@ -82,7 +93,7 @@ body {
 
 .rectangulo {
     display: flex;
-    width: 200px;
+    width: 80%;
     height: 20px;
     border-radius: 20px; 
     border: 0.50px white solid;
@@ -91,8 +102,8 @@ body {
 
 .circulo {
     display: flex;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     border-radius: 20px; 
     border: 0.50px white solid;
 }
